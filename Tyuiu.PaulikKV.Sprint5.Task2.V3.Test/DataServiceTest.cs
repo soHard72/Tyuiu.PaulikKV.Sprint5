@@ -1,17 +1,17 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.IO;
-using Tyuiu.PaulikKV.Sprint5.Task1.V28.Lib;
+using Tyuiu.PaulikKV.Sprint5.Task2.V3.Lib;
 
-namespace Tyuiu.PaulikKV.Sprint5.Task1.V28.Test
+namespace Tyuiu.PaulikKV.Sprint5.Task2.V3.Test
 {
     [TestClass]
     public class DataServiceTest
     {
         [TestMethod]
-        public void CheckedExistsFile()
+        public void ValidSaveToFileTextData()
         {
-            string path = @"C:\Users\User\source\repos\Tyuiu.PaulikKV.Sprint5\Tyuiu.PaulikKV.Sprint5.Task0.V28\bin\Debug\OutPutFileTask0.txt";
+            string path = @"C:\Users\User\source\repos\Tyuiu.PaulikKV.Sprint5\Tyuiu.PaulikKV.Sprint5.Task2.V3\bin\Debug\OutPutFileTask2.csv";
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

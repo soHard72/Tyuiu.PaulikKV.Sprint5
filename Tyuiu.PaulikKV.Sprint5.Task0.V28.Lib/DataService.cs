@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using tyuiu.cources.programming.interfaces.Sprint5;
 
-namespace Tyuiu.PaulikKV.Sprint5.Task0.V28.Lib
+namespace Tyuiu.PaulikKV.Sprint5.Task1.V28.Lib
 {
     public class DataService : ISprint5Task0V28
     {
