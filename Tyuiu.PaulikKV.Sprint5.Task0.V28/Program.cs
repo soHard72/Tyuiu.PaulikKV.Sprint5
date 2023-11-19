@@ -13,7 +13,6 @@ namespace Tyuiu.PaulikKV.Sprint5.Task1.V26
         {
             DataService ds = new DataService();
 
-
             Console.Title = "Спринт #5 | Выполнил: Паулик К.В. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
