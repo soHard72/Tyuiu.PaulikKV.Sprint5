@@ -14,6 +14,7 @@ namespace Tyuiu.PaulikKV.Sprint5.Task1.V26.Test
         public void ValidSaveToFileTextData()
         {
             string path = @"C:\Users\User\source\repos\Tyuiu.PaulikKV.Sprint5\Tyuiu.PaulikKV.Sprint5.Task1.V28\bin\Debug\OutPutFileTask1.txt";
+
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
 
