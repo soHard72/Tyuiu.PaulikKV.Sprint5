@@ -13,8 +13,8 @@ namespace Tyuiu.PaulikKV.Sprint5.Task1.V26
         {
             int startValue = -5;
             int stopValue = 5;
-
             DataService ds = new DataService();
+
 
             Console.Title = "Спринт #5 | Выполнил: Паулик К.В. | АСОиУб-23-3";
             Console.WriteLine("***************************************************************************");
@@ -24,8 +24,9 @@ namespace Tyuiu.PaulikKV.Sprint5.Task1.V26
             Console.WriteLine("* Вариант #26                                                             *");
             Console.WriteLine("* Выполнил: Паулик Кирилл Владимирович | АСОиУб-23-3                      *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* УСЛОВИЕ: Написать программу, которая производит табулирование функции:  *");                                                               *");
-            Console.WriteLine("* F(x) = ((2x + 6) /(cos(x) + x)) - 3 на заданном диапазоне               *");
+            Console.WriteLine("* УСЛОВИЕ:                                                                *");
+            Console.WriteLine("* Написать программу, которая производит табулирование функции:           *");
+            Console.WriteLine("* F(x) = (2x + 6 / cos(x) + x) - 3 на заданном диапазоне                  *");
             Console.WriteLine("* [-5; 5] с шагом 1. Произвести проверку деления на на ноль. При делении  *");
             Console.WriteLine("* на ноль вернуть значение 0. Результат сохранить в текстовый файл        *");
             Console.WriteLine("* OutPutFileTask0.txt и вывести на консоль в таблицу.                     *");
@@ -33,11 +34,14 @@ namespace Tyuiu.PaulikKV.Sprint5.Task1.V26
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string res = ds.SaveToFileTextData(startValue, stopValue);
+           
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
+
+            string res = ds.SaveToFileTextData(startValue, stopValue);
+
             Console.WriteLine("Файл:  " + res);
             Console.WriteLine("Создан!");
             Console.ReadKey();
