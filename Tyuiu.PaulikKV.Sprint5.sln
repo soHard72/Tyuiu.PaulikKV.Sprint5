@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PaulikKV.Sprint5.Task
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.PaulikKV.Sprint5.Task5.V23.Test", "D:\Tyuiu.PaulikKV.Sprint5.Task5.V23.Test\Tyuiu.PaulikKV.Sprint5.Task5.V23.Test.csproj", "{AF84DE1D-6799-4DD5-AFE4-BE7FB7EE3937}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task6", "Task6", "{2F1328FF-2799-4D80-9425-3596EE047B4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
