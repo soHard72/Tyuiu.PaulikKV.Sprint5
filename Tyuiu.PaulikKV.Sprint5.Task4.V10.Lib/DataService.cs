@@ -15,6 +15,7 @@ namespace Tyuiu.PaulikKV.Sprint5.Task4.V10.Lib
             string str = File.ReadAllText(path);
             double x = Convert.ToDouble(str);
             double res = Math.Round(Math.Pow(x, 3) * (1.2 * x) + 2, 3);
+
             return res;
         }
     }
